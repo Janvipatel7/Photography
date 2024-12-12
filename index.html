@@ -4,40 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- style css link -->
     <link rel="stylesheet" href="./assets/css/style.css ">
+    <!-- bootstrap link -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   
 </head>
 <body>
+    <!-- Slider main container -->
+   
     <header>
-        <div class="container p-50">
+        <div class="container p-20">
             <div class="flex justify-content-between align-items-center">
                 <div>
                     <img src="./assets/images/logo.png" alt="">
                 </div>
-                <div class="nav-item">
-                    <ul class="flex gap-5">
+                <div class="nav-item mt-3">
+                    <ul class="flex ">
                         <li class="menus">
-                            <a href="">Home</a></li>
+                            <a href="" class="nav-link active">Home</a></li>
                         <li class="menus">
-                            <a href="">About</a></li>
+                            <a href="" class="nav-link">About</a></li>
                         <li class="menus">
-                            <a href="">Portfolio</a></li>
+                            <a href="" class="nav-link">Portfolio</a></li>
                         <li class="menus">
-                            <a href="">Gallery</a></li>
+                            <a href="" class="nav-link">Gallery</a></li>
                         <li class="menus">
-                            <a href="">Services</a></li>
+                            <a href="" class="nav-link">Services</a></li>
                         <li class="menus">
-                            <a href="">Contact</a></li>
-                        <li class="menus">
-                            <a href="">Featuers</a></li>
+                            <a href="" class="nav-link">Contact</a></li>
+                        <li class="menus dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Features
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">Light Home</a></li>
+                                    <li><a class="dropdown-item" href="#">Elements</a></li>
+                                    <li><a class="dropdown-item" href="#">Typography</a></li>
+                                    <li><a class="dropdown-item" href="#">Slim Icons</a></li>
+                                    <li><a class="dropdown-item" href="#">Unicons</a></li>
+                                    <li><a class="dropdown-item" href="#">Documentation</a></li>
+                                </ul>
+                        </li>
                     </ul>
                 </div>
-                <div>
-
+                <div class="header-icon">
+                    <ul class="d-flex align-items-center">
+                        <li class="d-flex gap-3">
+                            <a href="" class="nav-btn btn-circle behance">
+                                <i class="fa-brands fa-behance"></i>
+                            </a>
+                            <a href="" class="nav-btn btn-circle facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="nav-btn btn-circle instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="button-bar">
+                            <a href="" class="text-white">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </header>
+    <!-- hero section -->
+    <section class="floating-sec">
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade"       data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active " data-bs-interval="2000">
+                <img src="./assets/images/bg1 (1).jpg"  class="d-block w-100" alt="...">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/images/bg2.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/images/bg3.jpg" class="d-block w-100" alt="...">
+                  
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/images/bg4.jpg" class="d-block w-100" alt="...">
+                  
+              </div>
+            </div>
+            <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next visually-hidden" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <div class="carousel-caption d-none d-md-block">
+        <h2 class="hero-h2 text-uppercase">Street & Nature Photographer<h2>
+        <h1 class="hero-h1">Kaylee Rosemary</h1>
+         <button class="btn-hero">
+            <a href="">VIEW MY WORK</a>
+        </button>   
+    </div>
+    <section class="second-section">
+       <div class="container pb-15 pt-7 ">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-5">
+                                <div class="rounded">
+                                    <img src="./assets/images/about-image.jpg" alt="" class="img-fluid">
+                                </div>
+                        </div>
+                      
+                        <div class="col-7">
+                            <div>
+                                <h2 class="about-image-h2">Life is an adventure. Capture every minute.</h2>
+                                <p class="about-image-p">I'm Kaylee, a street and nature photographer. My passion is taking photos of the most stunning places around the world.</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3 class="about-image-h3">A Little About Me</h3>
+                                        <p class="about-image-n-content">
+                                            <span class="capital-n">N</span>
+                                            "ulla vitae elit libero, a pharetra augue. Dapuis mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus."
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3 class="about-image-h3">My Equipment</h3>
+                                        <ul class="about-ul">
+                                            <li>Canon Eos 5D Mark IV 24-105mm</li>
+                                            <li>Manfrotto Compact Tripod</li>
+                                            <li>DJI Ronin MX 3-Axis Gimbal Stabilizer</li>
+                                            <li>Wondlan Wer01 Slider Time Lapse</li>
+                                            <li>Canon EF100-400MM Lens</li>
+                                            <li>Nikon D5 24-70mm F2.8</li>
+                                            <li>Nikon Af-S 24Mm F/1.4G Ed Lens</li>
+                                            <li>Wondlan Sniper Sn 2.1 Wf Wireless Dslr</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
 </body>
 
 <script src="./assets/js/jquery-3.7.1.min.js"></script>
