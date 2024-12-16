@@ -5,6 +5,7 @@
     text-decoration: none !important;
     list-style: none !important;
     box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .align-items-center {
     align-items: center !important;
@@ -41,7 +42,6 @@ header{
     font-size: 17px;
     font-weight: 600;
     color: #fff;
-    font-family: "Plus Jakarta Sans", sans-serif;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 .menus  .active{
@@ -83,7 +83,6 @@ header{
     font-size: 17px;
     font-weight: 700;
     color: #fff !important;
-    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .dropdown-menu .dropdown-item:hover{
     color: #34e3c9 !important;
@@ -115,14 +114,12 @@ header{
     font-size: 16px;
     margin-block-end: 25px;
     color: #fff;
-    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
 }
 .hero-h1{
     font-size: 76px;
     margin-block-end: 40px;
     color: #fff;
-    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 600;
 }
 .btn-hero{
@@ -133,7 +130,6 @@ header{
 .btn-hero a{
     color: black;
     font-size: 14px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -180,14 +176,12 @@ header{
 .about-image-h2{
     font-size: 30px;
     margin-block-end: 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
     font-weight: 600;
 }
 .about-image-p{
     font-size: 22px;
     margin-block-end: 35px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: #cacbcf;
     line-height: 1.6;
     font-weight: 400;
@@ -195,14 +189,12 @@ header{
 .about-image-h3{
     font-size: 20px;
     margin-block-end: 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
     font-weight: 600;
 }
 .about-image-n-content{
     font-size: 16px;
     margin-block-end: 20px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: #cacbcf;
     line-height: 1.6;
 }
@@ -223,7 +215,6 @@ header{
     position: relative;
     padding-left:20px;
     font-size:16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: #cacbcf;
 }
 .about-ul li::before{
@@ -237,7 +228,6 @@ header{
 }
 .mx-auto{
     padding: 0px 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     margin-inline: auto !important;
 }
 .portfolio-h2{
@@ -265,7 +255,6 @@ header{
     margin: 0 .8rem;
     font-size: 16px;
     color: #cacbcf;
-    font-family: "Plus Jakarta Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .025rem;
@@ -277,12 +266,10 @@ header{
 .gallery-h2{
     font-size: 30px;
     margin: 0px 0px 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
 }
 .gallery-p{
     color: #cacbcf;
-    font-family: "Plus Jakarta Sans", sans-serif;
     padding: 0px 70px;
     margin: 0px 0px 50px;
     font-size: 22px; 
@@ -290,12 +277,10 @@ header{
 .services-h2{
     font-size: 30px;
     margin: 0px 0px 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
 }
 .service-p{
     color: #cacbcf;
-    font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0px 0px 35px;
     font-size: 22px; 
 }
@@ -312,12 +297,10 @@ header{
 .photo-txt{
     margin: 0px 0px 7px;
     font-size: 20px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 600;
 }
 .photo-txt-p{
     font-size: 16px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     color: #cacbcf;
 }
 .overlap-photo{
@@ -327,6 +310,106 @@ header{
 }
 .m-t-100{
     margin-top: 130px;
+}
+.contact-h2{
+    margin-block-end: 15px;
+    font-size: 30px;
+}
+.contact-p{
+    font-size: 22px;
+    color: #cacbcf;
+    margin-block-end: 50px;
+}
+.form-floating {
+    position: relative;
+}
+.mb-6 {
+    margin-bottom: 1.5rem !important;
+}
+.form-control, .form-select {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0 0;
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #cacbcf !important;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid #cacbcf !important;
+    appearance: none;
+    border-radius: 0;
+    box-shadow: unset;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0 0;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+    color: #cacbcf !important;
+}
+.valid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .95em;
+    color: #34e3c9;
+}
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .95em;
+    color: #e53a4a;
+}
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 0 0;
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #cacbcf !important;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid #cacbcf !important;
+    appearance: none;
+    border-radius: 0;
+    box-shadow: unset;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-check {
+    display: block;
+    min-height: 1.4rem;
+    padding-left: 1.55rem;
+}
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #cacbcf;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.55rem;
+}
+.form-check-input {
+    margin-top: .2rem;
 }
 
 
